@@ -24,8 +24,9 @@
             android:enabled="true"
             android:saveEnabled="false"
             android:gravity="center"
-            android:inputType="number"
-            android:text="0" />
+            android:inputType="text"
+            android:text="" />
+
         <EditText
             android:id="@+id/upper_right_edit_text"
             android:layout_width="0dp"
@@ -34,8 +35,8 @@
             android:enabled="true"
             android:saveEnabled="false"
             android:gravity="center"
-            android:inputType="number"
-            android:text="0" />
+            android:inputType="text"
+            android:text="" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,8 +50,8 @@
             android:enabled="true"
             android:saveEnabled="false"
             android:gravity="center"
-            android:inputType="number"
-            android:text="0" />
+            android:inputType="text"
+            android:text="" />
         <EditText
             android:id="@+id/lower_right_edit_text"
             android:layout_width="0dp"
@@ -59,8 +60,8 @@
             android:enabled="true"
             android:saveEnabled="false"
             android:gravity="center"
-            android:inputType="number"
-            android:text="0" />
+            android:inputType="text"
+            android:text="" />
     </LinearLayout>
 
     <Button

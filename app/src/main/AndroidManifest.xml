@@ -21,10 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".PracticalTest01Var07SecondaryActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+<!--        <activity-->
+<!--            android:name=".PracticalTest01Var07SecondaryActivity"-->
+<!--            android:exported="false"-->
+<!--            android:windowSoftInputMode="adjustResize" />-->
+<!--            <intent-filter>-->
+<!--                <action android:name="ro.pub.cs.systems.eim.practicaltest01var07.intent.action.PracticalTest01Var07SecondaryActivity" />-->
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+        <activity android:name=".PracticalTest01Var07SecondaryActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="ro.pub.cs.systems.eim.practicaltest01var07.intent.action.PracticalTest01Var07SecondaryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
